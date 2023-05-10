@@ -4,6 +4,27 @@
 ### Project related files ###
 settings.csv
 
+### MicrosoftOffice ###
+*.tmp
+
+# Word temporary
+~$*.doc*
+
+# Word Auto Backup File
+Backup of *.doc*
+
+# Excel temporary
+~$*.xls*
+
+# Excel Backup File
+*.xlk
+
+# PowerPoint temporary
+~$*.ppt*
+
+# Visio autosave temporary files
+*.~vsd*
+
 ### macOS ###
 # General
 .DS_Store
@@ -254,4 +275,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/windows,macos,visualstudiocode,python
+# End of https://www.toptal.com/developers/gitignore/api/microsoftoffice,windows,macos,visualstudiocode,python
